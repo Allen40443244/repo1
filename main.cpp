@@ -4,7 +4,10 @@ int foobar(void)
 {
     return 1;
 }
-
+int foo(void)
+{
+    return 0;   
+}
 TEST(foobar, test)
 {
     ASSERT_EQ(1, foobar()); 
